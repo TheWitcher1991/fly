@@ -1,0 +1,42 @@
+{
+    "name": "fly",
+    "description": "",
+    "version": "1.0.0",
+    "main": "",
+    "bin": "./build",
+    "author": "github: TheWitcher1991 <alikzoy@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TheWitcher1991/fly.git"
+    },
+    "license": "GNU GPL",
+    "scripts": {
+        "build": "webpack --mode production",
+        "watch": "webpack --mode production -w"
+    },
+    "private": false,
+    "eslintIgnore": [
+        "build/**",
+        "node_modules/**"
+    ],
+    "engines": {
+        "node": ">= 14.x",
+        "npm": ">= 7.x",
+        "yarn": ">= 1.x"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.16.8",
+        "@babel/core": "^7.16.10",
+        "@babel/node": "^7.16.8",
+        "@babel/plugin-proposal-class-properties": "^7.16.7",
+        "@babel/preset-env": "^7.16.11",
+        "babel-loader": "^8.2.3",
+        "eslint": "^8.7.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-babel": "^5.3.1",
+        "eslint-plugin-import": "^2.25.4",
+        "requirejs": "^2.3.6",
+        "webpack": "^5.66.0",
+        "webpack-cli": "^4.9.1"
+    }
+}
